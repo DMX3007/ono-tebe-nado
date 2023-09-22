@@ -1,1 +1,121 @@
 /* место для вашего кода */
+
+.header {
+  margin: 92px 0px 96px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+  font-size: 18px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+}
+
+.header__links-list-item:first-child {
+  list-style-type: none;
+}
+
+
+.header__link {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+.header__link-no-underline {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  margin-right: 150px;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+  background-image: url(../images/logo-black.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* cover */
+
+.cover {
+  position: relative;
+  background-image: url(../images/cover.jpg);
+  width: 100vw;
+  height: 757px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: #000;
+  z-index: 1;
+}
+
+.cover-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  top: 165px;
+  justify-content: center;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.aligned-text,
+.aligned-text_center,
+.aligned-text_right {
+  letter-spacing: 30px;
+}
+
+.aligned-text {
+  justify-self: start;
+  align-self: start;
+  margin-left: 50px;
+}
+
+.aligned-text_center {
+  justify-self: center;
+  align-self: center;
+}
+
+.aligned-text_right {
+  justify-self: end;
+  align-self: end;
+  margin-right: 50px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}

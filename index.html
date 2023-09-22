@@ -4,7 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item">
+            <a class="header__link-no-underline" href="#cover">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#lots">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#about">об аукционе</a>
+          </li>
+        </ul>
+        <a class="header__logo">
+          <div class="header__logo-image"></div>
+        </a>
+        <address id="address" class="address">
+          <div class="header__address">
+            <a class="header__link" href="tel:+999955555555">+9 999 5555 5555</a
+            ><br />
+            <a class="header__link" href="mailto:info@sobaka.ge"
+              >info@sobaka.ge</a
+            ><br />
+            наб. Принсенграхт 263-265,<br />
+            Амстердам
+          </div>
+        </address>
+      </nav>
+    </header>
+    <main class="cover">
+      <div class="overlay"></div>
+      <h1 class="cover-title">
+        <span class="aligned-text"
+          >о<span class="letter-spacing-extended">н</span>о</span
+        >
+        <span class="aligned-text_center"
+          >те<span class="letter-spacing-extended">б</span>е
+        </span>
+        <span class="aligned-text_right"
+          ><span class="letter-spacing-extended">н</span>адо</span
+        >
+      </h1>
+      <div class="cover__description"></div>
+      <div id="lots" class="lots">lots</div>
+      <div id="about" class="about">about</div>
+    </main>
+    <footer></footer>
+  </body>
 </html>
