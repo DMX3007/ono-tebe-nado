@@ -39,7 +39,7 @@
         </address>
       </nav>
     </header>
-    <main class="cover">
+    <section class="cover">
       <div class="overlay"></div>
       <h1 class="cover-title">
         <span class="aligned-text"
@@ -58,9 +58,76 @@
         </h2>
         <button class="bet-button">Сделать ставку</button>
       </div>
-    </main>
-    <div id="lots" class="lots">lots</div>
-    <div id="about" class="about">about</div>
+    </section>
+    <section id="lots" class="lots">
+      <header class="lots__heading">Лоты</header>
+      <ul class="lots__card-list">
+        <li class="lots__card-list-item">
+          <div class="overlay"></div>
+          <a class="card-link">
+            <article class="card__content">
+              <div class="card_type_film"></div>
+              <h3 class="card__title">
+                Фильм режиссёра, который бросил киношколу
+              </h3>
+              <p class="card__text">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <div class="overlay"></div>
+          <a class="card-link">
+            <article class="card__content">
+              <div class="card_type_book"></div>
+              <h3 class="card__title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <p class="card__text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                переходами на древнеанглийский. В ней одновременно
+                рассказывается о 16 июня 1904 года и об истории литературы,
+                начиная с античных времён. И это всё накладывается на эпическую
+                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
+                Джойса?
+              </p>
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <div class="overlay"></div>
+          <a class="card-link">
+            <article class="card__content">
+              <div class="card_type_picture"></div>
+              <h3 class="card__title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h3>
+              <p class="card__text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                котиков… Сколько бы вы на такое поставили, если бы не знали, что
+                это — одна из революционных работ Кандинского?
+              </p>
+            </article>
+          </a>
+        </li>
+      </ul>
+      <a class="lots__look-more-link">посмотреть больше</a>
+    </section>
+    <section id="about" class="about">
+      <div class="about__logo">
+        <div
+          style="width: 100px; height: 100px"
+          class="about__logo-image"
+        ></div>
+      </div>
+      <article class="about__column">
+        <h3 class="about__title"></h3>
+        <p class="about__text"></p>
+      </article>
+    </section>
     <footer></footer>
   </body>
 </html>
