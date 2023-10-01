@@ -185,9 +185,14 @@
 
 .lots__card-list-item {
   position: relative;
+  z-index: 0;
   flex: 0 1 430px;
   min-height: 451px;
   list-style-type: none;
+}
+
+.lots__card-list-item:hover {
+  cursor: pointer;
 }
 
 .card-link {
@@ -219,6 +224,7 @@
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .card_type_picture {
@@ -232,6 +238,7 @@
 }
 
 .card__content {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
