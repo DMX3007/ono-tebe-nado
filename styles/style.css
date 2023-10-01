@@ -44,18 +44,22 @@
   cursor: pointer;
 }
 
-.header__logo-image {
+/* .header__logo-image {
   width: 148px;
   height: 105px;
   background-image: url(../images/logo-black.svg);
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
 .address {
   margin-right: 19px;
   font-style: normal;
   line-height: 24px;
+}
+
+.header__link {
+  /* letter-spacing: 1px; */
 }
 
 /* cover */
