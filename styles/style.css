@@ -330,7 +330,12 @@
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: normal;
+  line-height: 23px;
+}
+
+.about__text:first-of-type {
+  margin-bottom: 30px;
+  line-height: 23px;
 }
 
 /* footer */
@@ -339,7 +344,7 @@
   display: flex;
   justify-content: space-between;
   align-items: start;
-  padding: 180px 0 90px;
+  padding: 184px 0 90px;
   font-size: 18px;
 }
 
