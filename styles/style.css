@@ -8,13 +8,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 50px;
+  padding: 0 34px;
   font-size: 18px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 30px;
+  gap: 33px;
 }
 
 .header__links-list-item {
@@ -37,7 +37,7 @@
 
 .header__logo {
   display: block;
-  margin-right: 150px;
+  margin-right: 140px;
 }
 
 .header__logo:hover {
@@ -53,6 +53,7 @@
 }
 
 .address {
+  margin-right: 19px;
   font-style: normal;
 }
 
@@ -102,20 +103,20 @@
 }
 
 .aligned-text {
-  justify-self: start;
   align-self: start;
-  margin-left: 50px;
+  margin-left: 33px;
 }
 
 .aligned-text_center {
-  justify-self: center;
   align-self: center;
+  line-height: 98px;
+  padding-right: 45px;
 }
 
 .aligned-text_right {
-  justify-self: end;
   align-self: end;
-  margin-right: 50px;
+  line-height: 101px;
+  margin-right: 22px;
 }
 
 .letter-spacing-extended {
@@ -124,35 +125,28 @@
 
 .cover__description {
   position: relative;
-  top: 295px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  top: 300px;
+  text-align: center;
 }
 
 .cover__description-text {
-  grid-column: 2/10;
-  justify-self: center;
-  align-self: center;
+  display: inline-block;
+  text-align: center;
   font-weight: 400;
   font-size: 22px;
-  font-style: normal;
-  line-height: 28px;
-  text-align: center;
   text-transform: uppercase;
+  padding: 0 75px 0 350px;
+  letter-spacing: 0.5px;
   word-spacing: 15px;
 }
 
 .bet-button {
-  justify-self: end;
-  width: 257px;
-  height: 52px;
+  padding: 12px 32px;
   border: 1px solid #FFF;
   color: #FFF;
-  font-weight: 400;
   font-size: 22px;
   font-style: normal;
   line-height: normal;
-  text-align: center;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -180,7 +174,7 @@
 .lots__card-list {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 25px;
 }
 
@@ -281,7 +275,6 @@
 }
 
 .about__logo {
-  /* position: absolute; */
   width: 240px;
   height: 240px;
   border-radius: 1000px;
@@ -329,10 +322,6 @@
   margin: 0 50px;
   font-size: 18px;
 }
-
-/* .footer__address {
-  padding-bottom: 90px;
-} */
 
 .footer__links-list {
   list-style: none;
