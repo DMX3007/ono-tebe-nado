@@ -170,12 +170,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 25px;
+  justify-content: center;
 }
 
 .lots__card-list-item {
   position: relative;
   z-index: 0;
-  flex: 0 1 430px;
+  flex: 1 1 430px;
   min-height: 451px;
   list-style-type: none;
 }
